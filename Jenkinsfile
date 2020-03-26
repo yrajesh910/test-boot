@@ -3,6 +3,6 @@ node{
     git 'https://github.com/yrajesh910/test-boot'
   }
   stage('compile-package'){
-    mvn package
+    'mvn package'
   }
 }
